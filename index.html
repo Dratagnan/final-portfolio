@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.js"></script>
+   <title>My final portfolio</title>
+</head>
+
+<body>
+   <section id="home" class="home-container">
+      <header id="header" class="header">
+         <img src="folders/logo.png" alt="pfp" class="logo">
+         <ul class="nav-links">
+            <li>
+               <a href="#home" data-text="home">Home</a>
+            </li>
+            <li>
+               <a href="#portfolio" data-text="My last projects">Portfolio</a>
+            </li>
+            <li>
+               <a href="#contact" data-text="My links ">Contact</a>
+            </li>
+         </ul>
+         <div class="burger-container">
+            <div class="burger"></div>
+         </div>
+      </header>
+      <div class="landing">
+         <h1 class="big-title">My portfolio, as simple as that.</h1>
+         <a href="#delivery" class="delivery-link">
+            <span class="scroll-text" data-text="Scroll">Scroll</span>
+            <i class="scroll-icon fas fa-angle-down"></i>
+         </a>
+      </div>
+   </section>
+   <section id="delivery" class="delivery-container">
+      <div class="exp">
+         <i class="delivery-icon fas fa-store"></i>
+         <p class="box-content">
+            A lot of experience in Web3.
+         </p>
+      </div>
+      <div class="flight">
+         <i class="delivery-icon fas fa-people-carry"></i>
+         <p class="box-content">
+            I can travel without any problem.
+         </p>
+      </div>
+      <div class="delivery">
+         <i class="delivery-icon fas fa-truck"></i>
+         <p class="box-content">
+            Fast delivery, high availability.
+         </p>
+      </div>
+   </section>
+   <section id="best-project" class="best-project-container">
+      <h1 class="section-title">Best projects</h1>
+      <div class="best-project">
+         <a href="#" class="project-box no-grid project1">
+            <div class="project-bio">
+               <h1 class="project-name">Wind Finance</h1>
+               <h3 class="project-role">Founder/Advisor/Tokenomics master</h3>
+            </div>
+         </a>
+         <a href="#" class="project-box no-grid project2">
+            <div class="project-bio">
+               <h1 class="project-name">DeFi 4 all</h1>
+               <h3 class="project-role">Founder, community project</h3>
+            </div>
+         </a>
+         <a href="#" class="project-box no-grid project3">
+            <div class="project-bio">
+               <h1 class="project-name">TsunegiDAO</h1>
+               <h3 class="project-role">A small DAO on the Solana ecosystem, i'm the co-founder</h3>
+            </div>
+         </a>
+         <a href="#" class="project-box no-grid project4">
+            <div class="project-bio">
+               <h1 class="project-name">Player Nodes</h1>
+               <h3 class="project-role">Founder/Advisor/CM/CEO/CTO/COO</h3>
+            </div>
+         </a>
+      </div>
+   </section>
+   <section id="project" class="project-container">
+      <h1 class="section-title">My CV and my vision.</h1>
+      <div class="grid-project">
+         <a href="#" class="project-box grid project-grid1">
+            <div class="project-bio">
+               <h1 class="project-name">Working in a group</h1>
+               <h3 class="project-description">I am very good at working in group and communicating. Good knowledge of
+                  github too.</h3>
+            </div>
+         </a>
+         <a href="#" class="project-box grid project-grid2">
+            <div class="project-bio">
+               <h1 class="project-name">Travelling</h1>
+               <h3 class="project-description">I have traveled a lot in my life so I can move around easily for
+                  business.</h3>
+            </div>
+         </a>
+         <a href="#" class="project-box grid project-grid3">
+            <div class="project-bio">
+               <h1 class="project-name">Woodworking</h1>
+               <h3 class="project-description">My first job was as a carpenter, which helps me to manage teams and to
+                  learn quickly.</h3>
+            </div>
+         </a>
+         <a href="#" class="project-box grid project-grid4">
+            <div class="project-bio">
+               <h1 class="project-name">Dream</h1>
+               <h3 class="project-description">I have a lot of dreams and a lot of hope for my future, I will be able to
+                  give it back to whoever will give me his confidence.</h3>
+            </div>
+         </a>
+         <a href="#" class="project-box grid project-grid5">
+            <div class="project-bio">
+               <h1 class="project-name">Blockchain & Ethereum</h1>
+               <h3 class="project-description">I've been working full time on blockchain for a year now, I've had time
+                  to understand many different ecosystems and projects.</h3>
+            </div>
+         </a>
+         <a href="#" class="project-box grid project-grid6">
+            <div class="project-bio">
+               <h1 class="project-name">Chart and technology</h1>
+               <h3 class="project-description">For me Web3 has a real potential to revolutionize the world in the medium
+                  term, I will continue to build in this ecosystem because it is the future.</h3>
+            </div>
+         </a>
+      </div>
+   </section>
+   <footer id="footer" class="footer">
+      <span class="copyrights">&copy; 2022 - Draka portfolio
+      </span>
+      <a href="#" class="conditions">General conditions of use</a>
+   </footer>
+   <script>
+      const burgerContainer = document.querySelector('.burger-container');
+      const navLinks = document.querySelector('.nav-links');
+
+      burgerContainer.addEventListener('click', () => {
+         burgerContainer.classList.toggle('active');
+         navLinks.classList.toggle('active');
+      })
+   </script>
+</body>
+
+</html>
