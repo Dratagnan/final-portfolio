@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Orbitron', sans-serif;
     scroll-behavior: smooth;
 }
 
@@ -39,7 +38,7 @@
 }
 
 .nav-links a {
-    font-size: 15px;
+    font-size: 30px;
     font-weight: 500;
     color: white;
     text-decoration: none;
@@ -75,7 +74,7 @@
     width: 40%;
     color: white;
     font-size: 80px;
-    font-family: "Abril Fatface", cursive;
+    font-family: 'Orbitron', sans-serif;
     font-weight: 100;
 }
 
@@ -128,7 +127,7 @@
 
 .delivery-icon {
     font-size: 50px;
-    color: #ADD981;
+    color: rgb(173, 217, 129);
 }
 
 .delivery-container .box-content {
@@ -141,7 +140,7 @@
 
 .best-project-container {
     min-height: 80vh;
-    background: white;
+    background: rgb(255, 255, 255);
     padding: 0 100px;
 }
 
@@ -155,11 +154,11 @@
 .section-title::before {
     content: "";
     position: absolute;
-    width: 50px;
+    width: 40px;
     height: 7px;
-    background: #ADD981;
-    bottom: 0;
-    box-shadow: 0 2px 2px #0000001F;
+    background: rgb(173, 217, 129);
+    margin-top: 62px;
+    box-shadow: 2px 2px 2px #00000060;
 }
 
 .best-project {
@@ -205,9 +204,9 @@
 }
 
 .project-bio {
-    position: absolute;
+    position: static;
     bottom: 0;
-    display: flex;
+    display: outside;
     background: #FFFFFFDF;
     width: 100%;
     justify-content: space-between;
