@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
-
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
 * {
     margin: 0;
     padding: 0;
@@ -113,7 +113,7 @@
 
 .delivery-container {
     min-height: 300px;
-    background: white;
+    background: rgb(255, 255, 255);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -126,15 +126,15 @@
 }
 
 .delivery-icon {
-    font-size: 50px;
+    font-size: 73px;
     color: rgb(173, 217, 129);
 }
 
 .delivery-container .box-content {
-    font-weight: 700;
-    font-size: 20px;
-    margin-top: 30px;
-    width: 220px;
+    font-weight: 1000;
+    font-size: 21px;
+    margin-top: 45px;
+    width: 250px;
     text-align: center;
 }
 
