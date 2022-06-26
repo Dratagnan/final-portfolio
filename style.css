@@ -16,15 +16,21 @@
 
 .header {
     position: absolute;
+    background-color: rgb(0, 0, 0);
     width: 100%;
-    height: 150px;
+    height: 85px;
     display: flex;
     align-items: center;
-    padding: 0 50px;
+    padding: 0 8vh;
+    
 }
 
 .logo {
-    width: 180px;
+    position: absolute;
+    width: 40vh;
+    margin-left: 130vh;
+    padding-top: 2vh;
+    height: 40vh;
 }
 
 .nav-links {
@@ -33,12 +39,12 @@
 }
 
 .nav-links li {
-    margin: 40px;
+    margin: 50px;
     overflow: hidden;
 }
 
 .nav-links a {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 500;
     color: white;
     text-decoration: none;
@@ -61,21 +67,29 @@
     display: none;
 }
 
-.landing {
-    line-height: 80px;
-    min-height: 100vh;
+/* .landing {
+    line-height: 20px;
+    min-height: 20vh;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 0 100px;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: flex-end;
+    background-color: rgb(121, 121, 25);
+    padding: 0 px;
+} */
+
+.landing {
+    display: flex;
+    padding-top: 35vh;
+    padding-left: 10vh;
 }
 
 .big-title {
-    width: 40%;
+    width: 50%;
     color: white;
-    font-size: 80px;
+    font-size: 70px;
     font-family: 'Orbitron', sans-serif;
-    font-weight: 100;
+    line-height: 1.3em;
 }
 
 .delivery-link {
@@ -85,7 +99,7 @@
     align-items: center;
     position: absolute;
     bottom: 30px;
-    width: 70px;
+    width: 80px;
     justify-content: space-between;
     overflow: hidden;
 }
@@ -109,6 +123,7 @@
 .scroll-icon {
     font-size: 25px;
     color: white;
+    margin-left: 5px;
 }
 
 .delivery-container {
@@ -139,9 +154,9 @@
 }
 
 .best-project-container {
-    min-height: 80vh;
+    min-height: 70vh;
     background: rgb(255, 255, 255);
-    padding: 0 80px;
+    padding: 0 10vh;
 }
 
 .section-title {
